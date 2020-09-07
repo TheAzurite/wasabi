@@ -668,6 +668,7 @@ page_owner=on loop.max_part=7";
 		compatible = "mediatek,kp";
 		reg = <0 0x10010000 0 0x1000>;
 		interrupts = <GIC_SPI 75 IRQ_TYPE_EDGE_FALLING>;
+		cphy_dphy-gpio = <0x1d 0x3a 0x00>;
 	};
 
 	topmisc@10011000 {
