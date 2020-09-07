@@ -7,3 +7,5 @@ obj-$(CONFIG_MACH_MT6771)        += silead_mtk/
 obj-$(CONFIG_MACH_MT6768)        += et512/
 obj-$(CONFIG_MACH_MT6768)        += silead_mtk/
 endif
+
+subdir-ccflags-y += -DCONFIG_OPPO_FINGERPRINT_PLATFORM=6785
