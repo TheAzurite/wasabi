@@ -3,6 +3,7 @@
 obj-$(CONFIG_OPPO_COMMON_SOFT)  +=  oppo_project/
 obj-$(CONFIG_OPPO_DEVICE_IFNO)  +=  oppo_devinfo/
 obj-y += oppo_custom/
+obj-y += oppo_criticallog/
 #ifdef VENDOR_EDIT
 #//wenbin.liu@PSW.Kernel.MM, 2018/05/23, Add for Healthinfo monitor
 obj-y     +=  oppo_healthinfo/
