@@ -1121,6 +1121,7 @@
         spi-id = <0>;
         spi-irq = <75>;
         spi-reg = <11010000>;
+        vfp-supply = <&mt_pmic_vfp_ldo_reg>;
         status = "okay";
     };
 };
